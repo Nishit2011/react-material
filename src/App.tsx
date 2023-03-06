@@ -9,6 +9,13 @@ import MuiRadioButton from './components/MuiRadioButton';
 import MuiCheckbox from './components/MuiCheckbox';
 import MuiNavbar from './components/MuiNavbar';
 import MuiLink from './components/MuiLink';
+import MuiLayout from './components/MuiLayout';
+
+import LoginPage from './components/Login';
+import UserForm from './components/UserForm';
+
+import DashboardPage from './components/Dashboard';
+
 
 
 function App() {
@@ -21,7 +28,11 @@ function App() {
       {/* <MuiRadioButton /> */}
       {/* <MuiCheckbox /> */}
       {/* <MuiNavbar /> */}
-      <MuiLink />
+      {/* <MuiLink /> */}
+      <MuiLayout />
+      {/* <LoginPage /> */}
+      {/* <UserForm /> */}
+      {/* <DashboardPage /> */}
     </div>
   );
 }
