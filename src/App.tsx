@@ -15,6 +15,7 @@ import LoginPage from './components/Login';
 import UserForm from './components/UserForm';
 
 import DashboardPage from './components/Dashboard';
+import MuiCard from './components/MuiCard';
 
 
 
@@ -29,10 +30,11 @@ function App() {
       {/* <MuiCheckbox /> */}
       {/* <MuiNavbar /> */}
       {/* <MuiLink /> */}
-      <MuiLayout />
+      {/* <MuiLayout /> */}
       {/* <LoginPage /> */}
       {/* <UserForm /> */}
       {/* <DashboardPage /> */}
+      <MuiCard />
     </div>
   );
 }
