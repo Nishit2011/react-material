@@ -16,6 +16,8 @@ import UserForm from './components/UserForm';
 
 import DashboardPage from './components/Dashboard';
 import MuiCard from './components/MuiCard';
+import MuiAccordion from './components/MuiAccordion';
+import MuiDrawer from './components/MuiDrawer';
 
 
 
@@ -34,7 +36,9 @@ function App() {
       {/* <LoginPage /> */}
       {/* <UserForm /> */}
       {/* <DashboardPage /> */}
-      <MuiCard />
+      {/* <MuiCard /> */}
+      {/* <MuiAccordion /> */}
+      <MuiDrawer />
     </div>
   );
 }
